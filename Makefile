@@ -1,7 +1,7 @@
 
 tests: FORSE
 	pyclean .; \
-	PYTHONPATH=src pytest -vv .
+	PYTHONPATH=src pytest -vv src
 
 
 codestyle: FORSE
